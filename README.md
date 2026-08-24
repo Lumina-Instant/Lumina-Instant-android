@@ -32,4 +32,4 @@ The easiest way to run the whole project locally is with Docker:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/lumina-messaging.git](https://github.com/your-username/lumina-messaging.git)
-   cd lumina-messaging
+   cd lumina-instant-android
