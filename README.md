@@ -1,6 +1,6 @@
 # Lumina Instant Messaging 💬 -> Android
 
-A fast, lightweight real-time chat application built with a **Go** backend, a **Next.js (React)** frontend, and **PostgreSQL + Redis** for reliable data storage and instant message delivery.
+A fast, lightweight real-time chat application built with a **Go** **Ballerina** backend, a **Flutter** frontend, and **PostgreSQL + Redis** for reliable data storage and instant message delivery.
 
 ---
 
@@ -17,8 +17,8 @@ A fast, lightweight real-time chat application built with a **Go** backend, a **
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
-- **Backend:** Go (Golang), Gorilla WebSockets
+- **Frontend:** Flutter
+- **Backend:** Go (Golang), Gorilla WebSockets, Ballerina
 - **Database:** PostgreSQL (chat history & user data)
 - **Cache & Presence:** Redis
 - **DevOps:** Docker, Docker Compose
