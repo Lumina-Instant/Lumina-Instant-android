@@ -1,0 +1,22 @@
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Android/Gradle
+.gradle/
+local.properties
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.log
