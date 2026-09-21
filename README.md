@@ -1,35 +1,5 @@
-# Lumina Instant Messaging 💬 -> Android
-
-A fast, lightweight real-time chat application built with a **Go** **Ballerina and Node.js** backend, a **Flutter** frontend, and **PostgreSQL + Redis** for reliable data storage and instant message delivery.
-
----
-
-## ✨ Features
-
-- ⚡ **Instant Messaging:** Real-time 1-on-1 and group chat using WebSockets.
-- 🟢 **Live Status:** Real-time online/offline presence tracking powered by Redis.
-- 💾 **Chat History:** Stores user messages and timestamps safely in PostgreSQL.
-- 🔒 **User Authentication:** Secure signup and login with JWT.
-- 📱 **Responsive UI:** Clean, modern interface that works on both mobile and desktop.
-- 🐳 **Docker Ready:** One command to run the whole app locally with Docker Compose.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** Flutter
-- **Backend:** Go (Golang), Gorilla WebSockets, Ballerina, Node.js
-- **Database:** PostgreSQL (chat history & user data)
-- **Cache & Presence:** Redis
-- **DevOps:** Docker, Docker Compose
-
----
-
-## 🚀 Quick Start (Using Docker)
-
-The easiest way to run the whole project locally is with Docker:
-
-1. **Clone the repository:**
+# Lumina Instant Messaging - Android
+**Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/lumina-messaging.git](https://github.com/your-username/lumina-messaging.git)
    cd lumina-instant-android
