@@ -1,35 +1,26 @@
-# Lumina Instant Messaging 💬 -> Android
+# Lumina Instant Messaging Platform – Frontend Repository
 
-A fast, lightweight real-time chat application built with a **Go** **Ballerina** backend, a **Flutter** frontend, and **PostgreSQL + Redis** for reliable data storage and instant message delivery.
+This repository contains the cross-platform frontend application for **Lumina**, built with Flutter and Dart. It supports both mobile (iOS/Android) and desktop environments, delivering a high-performance, real-time messaging experience.
 
----
+## 🎨 UI/UX Design
+The complete design system and user interface layouts for both Mobile and Desktop can be found in our Figma workspace:
+**[Lumina UI/UX Figma Design](https://www.figma.com/design/gviMjuaWSMGc8kyDwZYWIL/Lumina-Instant?node-id=11-6&p=f&t=mTcE7SzoKKk9zTr9-0)**
 
-## ✨ Features
+## 🚀 Tech Stack
+* **Framework:** Flutter
+* **Language:** Dart
+* **Real-time Communication:** WebSockets (Socket.io-client)
+* **Local Storage:** Shared Preferences / Hive (for offline message caching)
 
-- ⚡ **Instant Messaging:** Real-time 1-on-1 and group chat using WebSockets.
-- 🟢 **Live Status:** Real-time online/offline presence tracking powered by Redis.
-- 💾 **Chat History:** Stores user messages and timestamps safely in PostgreSQL.
-- 🔒 **User Authentication:** Secure signup and login with JWT.
-- 📱 **Responsive UI:** Clean, modern interface that works on both mobile and desktop.
-- 🐳 **Docker Ready:** One command to run the whole app locally with Docker Compose.
+## 🛠 Prerequisites
+Ensure you have the following installed on your local development machine:
+* [Flutter SDK](https://docs.flutter.dev/get-started/install) (v3.13.0 or higher)
+* [Dart SDK](https://dart.dev/get-dart)
+* Android Studio (for Android emulator and SDKs)
+* Xcode (for iOS development - macOS only)
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** Flutter
-- **Backend:** Go (Golang), Gorilla WebSockets, Ballerina
-- **Database:** PostgreSQL (chat history & user data)
-- **Cache & Presence:** Redis
-- **DevOps:** Docker, Docker Compose
-
----
-
-## 🚀 Quick Start (Using Docker)
-
-The easiest way to run the whole project locally is with Docker:
-
-1. **Clone the repository:**
+## ⚙️ Environment Setup
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/lumina-messaging.git](https://github.com/your-username/lumina-messaging.git)
-   cd lumina-instant-android
+   git clone [https://github.com/your-organization/lumina-frontend.git](https://github.com/your-organization/lumina-frontend.git)
+   cd lumina-frontend
